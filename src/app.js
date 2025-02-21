@@ -11,6 +11,9 @@ app.use(cors());
 
 app.use("/auth", authRoutes);
 app.use("/resume", resumeRoutes);
+app.get("/", (req, res) => {
+  res.send("Welcome to Resume Analyser Api");
+});
 app.use((req, res, next) => {
   next({ status: 404, message: "Route not found" });
 });
