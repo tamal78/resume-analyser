@@ -1,8 +1,9 @@
 const { generateJWT } = require("../utils/token");
+reqquire("dotenv").config();
 
 const credentials = {
-  username: "naval.ravikant",
-  password: "05111974",
+  username: process.env.username,
+  password: process.env.password,
 };
 
 const login = (req, res, next) => {
