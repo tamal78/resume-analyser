@@ -133,6 +133,7 @@ The server will start on **`http://localhost:5000`** 🚀
     "email": "john.doe@example.com",
     "education": {
       "degree": "BSc Computer Science",
+      "branch": "XYZ Branch",
       "institution": "XYZ University",
       "year": "2021"
     },
@@ -181,6 +182,7 @@ The server will start on **`http://localhost:5000`** 🚀
     "email": "john.doe@example.com",
     "education": {
       "degree": "BSc Computer Science",
+      "branch": "XYZ Branch",
       "institution": "XYZ University",
       "year": "2021"
     },
